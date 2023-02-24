@@ -1,7 +1,7 @@
 <?php
 require_once "../bootstrap.php";
 
-use GoogleSpeech\TextToSpeech;
+use AlboVieira\GoogleSpeech\TextToSpeech;
 
 $speech = new TextToSpeech();
 $speech

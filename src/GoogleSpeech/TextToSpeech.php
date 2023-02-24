@@ -1,9 +1,8 @@
 <?php
 
-namespace GoogleSpeech;
+namespace AlboVieira\GoogleSpeech;
 
 use GuzzleHttp\Client;
-
 
 /**
  * Class TextToSpeech
@@ -11,7 +10,6 @@ use GuzzleHttp\Client;
  */
 class TextToSpeech
 {
-
     const GOOGLE_TEXT_TO_SPEECH_URL = "http://translate.google.com/translate_tts?";
 
     private $client;
@@ -34,7 +32,6 @@ class TextToSpeech
      */
     public function download($text)
     {
-
         if (!$this->lang) {
             throw new \Exception("Language doesn't informed");
         }

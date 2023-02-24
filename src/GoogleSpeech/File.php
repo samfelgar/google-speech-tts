@@ -1,7 +1,6 @@
 <?php
 
-namespace GoogleSpeech;
-
+namespace AlboVieira\GoogleSpeech;
 
 /**
  * Class File
