@@ -22,8 +22,9 @@ class File
     /**
      * @return string
      */
-    public function getCompletePath(){
-        return $this->path . DIRECTORY_SEPARATOR . $this->name .'.' . $this->type;
+    public function getCompletePath()
+    {
+        return $this->path . DIRECTORY_SEPARATOR . $this->name . '.' . $this->type;
     }
 
     /**
@@ -41,8 +42,6 @@ class File
     {
         $this->path = $path;
     }
-
-
 
     /**
      * @param mixed $name
@@ -67,6 +66,4 @@ class File
     {
         $this->type = $type;
     }
-
-
 }
